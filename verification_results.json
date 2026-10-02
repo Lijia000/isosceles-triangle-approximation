@@ -1,0 +1,113 @@
+{
+  "grid_increment": 0.01,
+  "perimeter": 1,
+  "ordered_position_preserving_input": true,
+  "strict_triangle_inequalities": true,
+  "grid_triangles_per_setting": 1176,
+  "settings": [
+    {
+      "setting": "[1,90] degrees",
+      "k1": 0.01745307099674787,
+      "k2": 1.4142135623730951,
+      "grid_triangles": 1176,
+      "l1_tie_grid_points": 0,
+      "max_errors": {
+        "l1_formula_vs_breakpoints": 5.551115123125783e-17,
+        "l1_formula_vs_lp": 8.326672684688674e-17,
+        "l2_formula_vs_continuous": 4.239249638446193e-15,
+        "linf_formula_vs_lp": 1.942890293094024e-16,
+        "two_branch_rule": 0.0,
+        "l1_enumeration_two_branch_rule": 0.0,
+        "feasibility_violation": 5.551115123125783e-17,
+        "reconstruction_error": 0.0
+      }
+    },
+    {
+      "setting": "[45,90] degrees",
+      "k1": 0.7653668647301796,
+      "k2": 1.4142135623730951,
+      "grid_triangles": 1176,
+      "l1_tie_grid_points": 0,
+      "max_errors": {
+        "l1_formula_vs_breakpoints": 5.551115123125783e-17,
+        "l1_formula_vs_lp": 1.1102230246251565e-16,
+        "l2_formula_vs_continuous": 5.551115123125783e-17,
+        "linf_formula_vs_lp": 1.942890293094024e-16,
+        "two_branch_rule": 0.0,
+        "l1_enumeration_two_branch_rule": 0.0,
+        "feasibility_violation": 5.551115123125783e-17,
+        "reconstruction_error": 0.0
+      }
+    },
+    {
+      "setting": "[30,50] degrees",
+      "k1": 0.5176380902050415,
+      "k2": 0.8452365234813989,
+      "grid_triangles": 1176,
+      "l1_tie_grid_points": 24,
+      "max_errors": {
+        "l1_formula_vs_breakpoints": 5.551115123125783e-17,
+        "l1_formula_vs_lp": 1.1102230246251565e-16,
+        "l2_formula_vs_continuous": 1.1102230246251565e-16,
+        "linf_formula_vs_lp": 1.1102230246251565e-16,
+        "two_branch_rule": 0.0,
+        "l1_enumeration_two_branch_rule": 0.0,
+        "feasibility_violation": 2.7755575615628914e-17,
+        "reconstruction_error": 0.0
+      }
+    },
+    {
+      "setting": "[90,120] degrees",
+      "k1": 1.4142135623730951,
+      "k2": 1.7320508075688772,
+      "grid_triangles": 1176,
+      "l1_tie_grid_points": 48,
+      "max_errors": {
+        "l1_formula_vs_breakpoints": 5.551115123125783e-17,
+        "l1_formula_vs_lp": 2.220446049250313e-16,
+        "l2_formula_vs_continuous": 5.551115123125783e-17,
+        "linf_formula_vs_lp": 1.3877787807814457e-16,
+        "two_branch_rule": 0.0,
+        "l1_enumeration_two_branch_rule": 0.0,
+        "feasibility_violation": 5.551115123125783e-17,
+        "reconstruction_error": 0.0
+      }
+    },
+    {
+      "setting": "(k1,k2)=(3/4,5/4)",
+      "k1": 0.75,
+      "k2": 1.25,
+      "grid_triangles": 1176,
+      "l1_tie_grid_points": 258,
+      "max_errors": {
+        "l1_formula_vs_breakpoints": 5.551115123125783e-17,
+        "l1_formula_vs_lp": 1.1102230246251565e-16,
+        "l2_formula_vs_continuous": 5.551115123125783e-17,
+        "linf_formula_vs_lp": 1.3877787807814457e-16,
+        "two_branch_rule": 0.0,
+        "l1_enumeration_two_branch_rule": 0.0,
+        "feasibility_violation": 5.551115123125783e-17,
+        "reconstruction_error": 0.0
+      }
+    }
+  ],
+  "total_branch_checks_per_norm": 52920,
+  "total_global_checks": 23520,
+  "total_l1_ties": 330,
+  "max_errors": {
+    "l1_formula_vs_breakpoints": 5.551115123125783e-17,
+    "l1_formula_vs_lp": 2.220446049250313e-16,
+    "l2_formula_vs_continuous": 4.239249638446193e-15,
+    "linf_formula_vs_lp": 1.942890293094024e-16,
+    "two_branch_rule": 0.0,
+    "l1_enumeration_two_branch_rule": 0.0,
+    "feasibility_violation": 5.551115123125783e-17,
+    "reconstruction_error": 0.0
+  },
+  "tie_tolerance": 1.4210854715202004e-14,
+  "python": "3.8.8",
+  "numpy": "1.20.1",
+  "scipy": "1.6.2",
+  "platform": "Windows-10-10.0.19041-SP0",
+  "status": "all checks passed"
+}
